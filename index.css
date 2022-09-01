@@ -80,3 +80,10 @@ body {
 .today {
   background-color: lightseagreen;
 }
+
+@media only screen and (max-width: 450px) {
+  .days div {
+    width: 40px;
+    margin-left: 7px;
+  }
+}
